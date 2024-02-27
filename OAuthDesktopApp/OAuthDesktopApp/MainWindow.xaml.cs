@@ -32,8 +32,16 @@ namespace OAuthApp
     public partial class MainWindow : Window
     {
         // client configuration
-        const string clientID = "581786658708-elflankerquo1a6vsckabbhn25hclla0.apps.googleusercontent.com";
-        const string clientSecret = "3f6NggMbPtrmIBpgx-MK2xXK";
+        //const string clientID = "581786658708-elflankerquo1a6vsckabbhn25hclla0.apps.googleusercontent.com";
+        //const string clientSecret = "3f6NggMbPtrmIBpgx-MK2xXK";
+        //nialapp
+        //const string clientID = "964516006805-88k6mvpkdmq6vtjj06i7k1cj6hfrk7qm.apps.googleusercontent.com";
+        //const string clientSecret = "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";
+        //logitransapp
+        const string clientID = "77067296876-m65rlgjg1rhssuurfvv1sl6kgkcct2jg.apps.googleusercontent.com";
+        const string clientSecret = "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";
+
+
         const string authorizationEndpoint = "https://accounts.google.com/o/oauth2/v2/auth";
         const string tokenEndpoint = "https://www.googleapis.com/oauth2/v4/token";
         const string userInfoEndpoint = "https://www.googleapis.com/oauth2/v3/userinfo";
